@@ -17,7 +17,7 @@
 
 ## From Head to Tail: Towards Balanced Representation in Large Vision-Language Models through Adaptive Data Calibration
 <p align="center" width="80%">
-  <img src="./docs/main_fig.jpg" width="70%" height="70%">
+  <img src="./docs/main_fig.jpg">
 </p>
 <p align="center" style="font-size: 14px; color: gray;">
   The overview of our <span class="dnerf"><strong>Adaptive Data Refinement Framework (ADR)</strong></span>.
@@ -68,3 +68,16 @@ python ./reform_data_one_scope.py \
 
 During Data Synthesis stage, we supplement the underrepresented data by utilizing DDPM and the latent representations of scarce image instances. We mainly use the scripts under `VLMLT/robustlmm/model_inference` to conduct the data synthesis. 
 You can follow the instructions given in the paper and use the proper model inference scripts to synthesize the data.
+
+## Citations
+
+```bibtex
+@inproceedings{song2025head,
+  title={From head to tail: Towards balanced representation in large vision-language models through adaptive data calibration},
+  author={Song, Mingyang and Qu, Xiaoye and Zhou, Jiawei and Cheng, Yu},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={9434--9444},
+  year={2025}
+}
+```
+![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-green)
