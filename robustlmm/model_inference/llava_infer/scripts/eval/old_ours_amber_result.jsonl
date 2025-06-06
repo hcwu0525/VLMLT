@@ -1,0 +1,12 @@
+{"model": "llava_ours", "language": "en", "CHAIR": 3.1, "Cover": 34.5, "Cog": 0.4, "Ha_p": 6.6, "Language_Qualified": 97.0}
+{"model": "llava_ours", "language": "zh", "CHAIR": 7.0, "Cover": 23.5, "Cog": 0.5, "Ha_p": 11.1, "Language_Qualified": 6.5}
+{"model": "llava_ours", "language": "ja", "CHAIR": 10.8, "Cover": 20.4, "Cog": 0.8, "Ha_p": 13.9, "Language_Qualified": 15.6}
+{"model": "llava_ours", "language": "fr", "CHAIR": 9.1, "Cover": 30.5, "Cog": 1.5, "Ha_p": 18.4, "Language_Qualified": 86.6}
+{"model": "llava_ours", "language": "es", "CHAIR": 7.3, "Cover": 29.0, "Cog": 0.9, "Ha_p": 12.4, "Language_Qualified": 92.3}
+{"model": "llava_ours", "language": "fr", "CHAIR": 9.1, "Cover": 30.5, "Cog": 1.5, "Ha_p": 18.4, "Language_Qualified": 86.5}
+{"model": "llava_ours", "language": "es", "CHAIR": 7.3, "Cover": 29.0, "Cog": 0.9, "Ha_p": 12.4, "Language_Qualified": 91.9}
+{"model": "llava_ours", "language": "pt", "CHAIR": 10.6, "Cover": 27.8, "Cog": 2.2, "Ha_p": 18.3, "Language_Qualified": 37.3}
+{"model": "llava_ours", "language": "uk", "CHAIR": 7.9, "Cover": 8.4, "Cog": 0.3, "Ha_p": 4.1, "Language_Qualified": 32.3}
+{"model": "llava_ours", "language": "bg", "CHAIR": 9.2, "Cover": 8.9, "Cog": 1.0, "Ha_p": 5.3, "Language_Qualified": 24.0}
+{"model": "llava_ours", "language": "tr", "CHAIR": 46.4, "Cover": 5.0, "Cog": 0.5, "Ha_p": 9.9, "Language_Qualified": 57.8}
+{"model": "llava_ours", "language": "ar", "CHAIR": 26.5, "Cover": 20.4, "Cog": 2.1, "Ha_p": 30.9, "Language_Qualified": 82.1}

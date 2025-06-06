@@ -1,0 +1,36 @@
+statistic_files:
+  - /mnt/petrelfs/songmingyang/songmingyang/data/mm/hf-benchmarks/lmms-lab-ScienceQA/ScienceQA-IMG/statistics/sqaimg_statistics.jsonl
+statistic_id_key: "id"
+statistic_object_keys:
+  - "tokens"
+  - "objects"
+  - "objects"
+distribution_compose_list:
+  - "token"
+  - "object"
+  - "co_occurrence"
+  - "what_word"
+distribution_reverse_index_files:
+  - "/mnt/petrelfs/songmingyang/songmingyang/data/llava_train/LLaVA-Instruct-150K/reverse_index/llava_v1_5_mix665k_token_reverse_index.jsonl"
+  - "/mnt/petrelfs/songmingyang/songmingyang/data/llava_train/LLaVA-Instruct-150K/reverse_index/llava_v1_5_mix665k_dino_stat_reverse_index.jsonl"
+  - "/mnt/petrelfs/songmingyang/songmingyang/data/llava_train/LLaVA-Instruct-150K/reverse_index/llava_v1_5_mix665k_co_occurrence_reverse_index.jsonl"
+  - "/mnt/petrelfs/songmingyang/songmingyang/data/llava_train/LLaVA-Instruct-150K/reverse_index/llava_v1_5_mix665k_what_word_reverse_index.jsonl"
+distribution_thresholds:
+  - 0.9
+  - 0.9
+  - 0.9
+  - 0.9
+head_tail_pass_key: "avg_pass"
+result_file_name: scienceqa_img.json
+result_question_id_key: 
+- doc_id
+result_score_key:
+- exact_match
+result_files:
+- /mnt/petrelfs/songmingyang/code/tools/lmms-eval/scripts/logs/robustlmm/meta_clip/0605_2135_eval_all_llava_baseline_llava_model_args_ca10f3
+- /mnt/petrelfs/songmingyang/code/tools/lmms-eval/scripts/logs/robustlmm/meta_clip/0704_2150_eval_all_meta_clip_ptn_ft0_new_llava_model_args_be754a
+- /mnt/petrelfs/songmingyang/code/tools/lmms-eval/scripts/logs/robustlmm/meta_clip/0721_1616_all_a1_aug_665k_llava_model_args_cd7cf0
+result_names:
+- baseline
+- balance
+- aug
